@@ -15,6 +15,14 @@ body{
     
 }
 
+
+main{
+display: flex; 
+flex-wrap: wrap;
+
+}
+
+
 header{
    
     text-align: center;
@@ -56,10 +64,6 @@ nav> a{
     font-weight: 300;
     text-decoration: none; 
     margin-right: 10px;
-}
-
-.container{
-    flex-direction: column;
 }
 
 .row{
@@ -108,7 +112,8 @@ footer{
     header{
         background-position: center;
         font-size: 20px;
-        height: 400px;  
+        height: 400px; 
+        color: yellow; 
     }
     .row{
         flex-direction: column;
@@ -122,6 +127,7 @@ footer{
         background-position: center;
         font-size: 14px;
         height: 300px;
+        color: red;
         
         
     }
